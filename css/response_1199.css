@@ -1,0 +1,251 @@
+@media print, (max-width: 1399px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 40px;
+    }
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .subtitle
+    {
+        font-size: 18px;
+    }
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .form .input
+    {
+        font-size: 20px;
+
+        height: 60px;
+        padding: 0 19px;
+    }
+
+    .form textarea
+    {
+        font-size: 20px;
+
+        height: 120px;
+        padding: 19px;
+    }
+
+    .form .submit_btn
+    {
+        font-size: 20px;
+
+        height: 60px;
+    }
+
+
+    /*------------
+        Header
+    ------------*/
+    header .contact
+    {
+        padding-top: 33px;
+    }
+
+
+
+    /*-----------------
+		Main section
+	-----------------*/
+    .page_number
+    {
+        display: none;
+    }
+
+
+    .main_section .size
+    {
+        font-size: 18px;
+        line-height: 40px;
+
+        padding: 0 20px;
+    }
+
+    .main_section .part
+    {
+        width: 43.69%;
+    }
+
+    .main_section .info
+    {
+        padding-bottom: 25px;
+    }
+
+    .main_section .bot
+    {
+        padding-bottom: 17px;
+    }
+
+    .main_section .item
+    {
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+
+    .main_section .item .icon
+    {
+        width: 50px;
+        height: 50px;
+        margin-right: 12px;
+        padding: 12px 5px;
+    }
+
+    .main_section .item .icon
+    {
+        font-size: 25px;
+    }
+
+
+    .main_section .desc
+    {
+        margin-top: 20px;
+    }
+
+
+    .main_section .page_btn
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*-----------------
+		Interior
+	-----------------*/
+    .interior .title
+    {
+        font-size: 70px;
+    }
+
+    .interior .quote
+    {
+        max-width: 350px;
+        margin-left: 100px;
+    }
+
+    .interior_slider .swiper
+    {
+        padding: 0 160px;
+    }
+
+
+    .quote
+    {
+        padding-left: 70px;
+    }
+
+
+
+    /*-----------------
+		Information
+	-----------------*/
+    .information .list li
+    {
+        padding-left: 80px;
+    }
+
+    .information .list li:before
+    {
+        width: 50px;
+    }
+
+
+    .information .info
+    {
+        padding: 46px 30px;
+    }
+
+    .information .info .title
+    {
+        font-size: 36px;
+
+        width: 336px;
+        margin-right: 40px;
+    }
+
+    .information .list_info li
+    {
+        padding-left: 27px;
+    }
+
+    .information .list_info li:before
+    {
+        width: 14px;
+        height: 14px;
+    }
+
+
+
+    /*-----------------
+		Suitable
+	-----------------*/
+    .suitable .title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*-----------------
+		Important
+	-----------------*/
+    .important .bg
+    {
+        padding: 40px 20px;
+    }
+
+    .important .bg:after
+    {
+        right: 4%;
+    }
+
+    .important .bg .line
+    {
+        right: 7%;
+    }
+
+
+    /*-----------------
+		Advantages
+	-----------------*/
+    .advantages .bg
+    {
+        padding: 100px 0 50px;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+    .advantages .item .name
+    {
+        font-size: 16px;
+    }
+
+
+    .advantages .img
+    {
+        max-width: 440px;
+    }
+
+
+    .advantages .quote
+    {
+        max-width: 350px;
+    }
+}

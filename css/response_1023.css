@@ -1,0 +1,372 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 34px;
+    }
+
+
+    .main
+    {
+        padding-top: 20px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        padding: 10px 20px;
+    }
+    /*---------------
+        Page head
+    ---------------*/
+    .subtitle
+    {
+        font-size: 16px;
+    }
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form_section
+    {
+        padding: 80px 0;
+    }
+
+
+    .form_section .bg.loaded
+    {
+        opacity: .4;
+    }
+
+
+    .form .columns
+    {
+        margin-left: -10px;
+    }
+
+    .form .columns > *
+    {
+        width: calc(100%/3 - 10px);
+        margin-left: 10px;
+    }
+
+
+    .form .input
+    {
+        font-size: 18px;
+
+        padding: 0 15px;
+    }
+
+    .form textarea
+    {
+        font-size: 18px;
+
+        padding: 15px;
+    }
+
+    .form .submit_btn
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------------------
+		Slider controls
+	------------------------*/
+    .slider-button-prev,
+    .slider-button-next
+    {
+        width: 20px;
+        height: 37px;
+    }
+
+    .slider-button-next
+    {
+        left: 50px;
+    }
+
+
+    .slider-pagination
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*-----------------
+		Main section
+	-----------------*/
+    .main_section
+    {
+        padding-bottom: 0;
+    }
+
+
+    .main_section .part
+    {
+        display: none;
+    }
+
+
+    .main_section .info
+    {
+        position: relative;
+
+        padding: 100px 0 30px;
+    }
+
+
+    .main_section .size
+    {
+        top: 50px;
+        right: 0;
+    }
+
+
+    .main_section .box
+    {
+        max-width: 500px;
+    }
+
+
+    .main_section .bot:before
+    {
+        display: none;
+    }
+
+
+    .main_section .items
+    {
+        justify-content: flex-start;
+    }
+
+    .main_section .item
+    {
+        width: calc(100%/3 - 20px);
+        margin-right: 20px;
+    }
+
+
+
+    .page_btn
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-----------------
+		Interior
+	-----------------*/
+    .interior
+    {
+        padding: 80px 0 50px;
+    }
+
+    .interior .title
+    {
+        font-size: 50px;
+    }
+
+    .interior .quote
+    {
+        margin-left: auto;
+    }
+
+
+    .interior_slider .swiper
+    {
+        padding: 0 130px;
+    }
+
+    .interior_slider .desc
+    {
+        font-size: 12px;
+    }
+
+
+    /*-----------------
+		Information
+	-----------------*/
+    .information
+    {
+        padding: 80px 0;
+    }
+
+
+    .information .list
+    {
+        column-gap: 20px;
+    }
+
+    .information .list li
+    {
+        padding-left: 60px;
+    }
+
+    .information .list li:before
+    {
+        font-size: 40px;
+
+        width: 40px;
+    }
+
+    .information .list li span
+    {
+        min-height: 55px;
+    }
+
+
+    .information .info
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+    .information .info .title
+    {
+        font-size: 30px;
+
+        width: 280px;
+        margin-right: 30px;
+    }
+
+
+
+    /*-----------------
+		Suitable
+	-----------------*/
+    .suitable
+    {
+        padding: 80px 0;
+    }
+
+
+    .suitable .info
+    {
+        margin-top: 40px;
+        padding-right: 14px;
+        padding-left: 14px;
+
+        border-right-width: 6px;
+        border-left-width: 6px;
+    }
+
+
+    .suitable .info:before,
+    .suitable .info:after
+    {
+        display: none;
+    }
+
+
+    .suitable .logo
+    {
+        order: -1;
+
+        width: 200px;
+        height: 200px;
+        margin: 20px 0 0;
+        padding: 40px;
+
+        border-width: 15px;
+    }
+
+
+    .suitable .box
+    {
+        margin-left: 20px;
+    }
+
+    .suitable .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------------
+		Advantages
+	-----------------*/
+    .advantages
+    {
+        padding-bottom: 0;
+    }
+
+
+    .advantages .bg
+    {
+        padding-top: 80px;
+    }
+
+
+    .advantages .box
+    {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+
+    .advantages .quote
+    {
+        margin-left: auto;
+    }
+
+
+    .advantages .quote
+    {
+        display: none;
+    }
+
+    .advantages .img
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+		Important
+	-----------------*/
+    .important
+    {
+        padding: 80px 0;
+    }
+
+
+    .important .bg:after
+    {
+        top: -60px;
+
+        width: 180px;
+        height: 156px;
+    }
+
+
+    .important .list li
+    {
+        padding-left: 27px;
+    }
+}

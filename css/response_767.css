@@ -1,0 +1,394 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 32px;
+    }
+
+
+    .main
+    {
+        padding-top: 0;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .cont
+    {
+        align-content: center;
+        align-items: center;
+    }
+
+
+    header .logo
+    {
+        width: 150px;
+    }
+
+    header .logo img
+    {
+        max-width: 100%;
+    }
+
+
+    header .contact
+    {
+        padding-top: 0;
+    }
+
+    header .phone a
+    {
+        font-size: 14px;
+    }
+
+    header .callback_btn
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form_section .bg
+    {
+        display: none;
+    }
+
+
+    .form .line
+    {
+        margin-bottom: 20px;
+    }
+
+    .form .columns
+    {
+        margin-left: 0;
+    }
+
+    .form .columns > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .form .columns .line
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .form .line + .agree
+    {
+        margin-top: 0;
+    }
+
+
+    /*------------------------
+		Slider controls
+	------------------------*/
+    .slider-button-prev,
+    .slider-button-next
+    {
+        display: none;
+    }
+
+    .slider-pagination
+    {
+        font-size: 20px;
+
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+
+    /*-----------------
+		Main section
+	-----------------*/
+    .main_section .size
+    {
+        font-size: 16px;
+        line-height: 30px;
+
+        padding: 0 20px;
+    }
+
+
+    .main_section .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .main_section .items
+    {
+        justify-content: center;
+    }
+
+    .main_section .item
+    {
+        flex-wrap: wrap;
+    }
+
+    .main_section .item .icon
+    {
+        margin: 0 auto;
+    }
+
+    .main_section .item .name
+    {
+        width: 100%;
+        margin-top: 10px;
+
+        text-align: center;
+    }
+
+
+
+    /*-----------------
+		Interior
+	-----------------*/
+    .interior .title
+    {
+        font-size: 42px;
+    }
+
+    .interior .title br
+    {
+        display: none;
+    }
+
+    .interior .quote
+    {
+        margin-left: 0;
+    }
+
+
+    .interior_slider .swiper
+    {
+        padding: 40px 0 0;
+    }
+
+    .interior_slider .swiper-slide
+    {
+        pointer-events: all;
+
+        opacity: 1;
+    }
+
+
+
+    /*-----------------
+		Interior
+	-----------------*/
+    .information .list
+    {
+        column-count: 1;
+        column-gap: 0;
+    }
+
+
+    .information .info
+    {
+        flex-wrap: wrap;
+
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0% 50%);
+                clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0% 50%);
+    }
+
+    .information .info:before
+    {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0% 50%);
+                clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0% 50%);
+    }
+
+    .information .info .title
+    {
+        font-size: 26px;
+
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .information .list_info
+    {
+        margin-top: 30px;
+    }
+
+    .information .info .line
+    {
+        right: 15%;
+    }
+
+
+    /*-----------------
+		Suitable
+	-----------------*/
+    .suitable .info
+    {
+        flex-wrap: wrap;
+
+        padding-bottom: 20px;
+    }
+
+    .suitable .logo
+    {
+        display: none;
+    }
+
+
+    .suitable .box
+    {
+        width: 100%;
+        margin: 20px 0 0;
+        padding: 0;
+    }
+
+    .suitable .list li br
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+		Advantages
+	-----------------*/
+    .advantages .items
+    {
+        column-count: 1;
+        column-gap: 0;
+    }
+
+    .advantages .item .name
+    {
+        font-size: 18px;
+    }
+
+    .advantages .item .name br
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+		Important
+	-----------------*/
+    .important .bg:before
+    {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0% 50%);
+                clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0% 50%);
+    }
+
+    .important .bg:after
+    {
+        top: -30px;
+
+        width: 60px;
+        height: 52px;
+    }
+
+
+    .important .list
+    {
+        max-width: none;
+    }
+
+
+    .important .bg .line
+    {
+        right: 15%;
+    }
+
+
+
+    /*-----------------
+		Footer
+	-----------------*/
+    footer
+    {
+        padding: 20px 0;
+    }
+
+    footer .logo img
+    {
+        max-width: 140px;
+    }
+
+    footer .copy
+    {
+        font-size: 12px;
+    }
+
+    footer .policy
+    {
+        font-size: 12px;
+
+        margin-left: 20px;
+    }
+
+
+
+    /*-----------
+		PopUp
+	-----------*/
+    .modal
+    {
+        width: 435px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+    .modal .title
+    {
+        font-size: 26px;
+    }
+
+
+    .modal .form
+    {
+        margin-top: 30px;
+    }
+
+
+    .fancybox__content > .carousel__button.is-close
+    {
+        width: 38px;
+        height: 36px;
+    }
+
+    .fancybox__content > .carousel__button.is-close svg
+    {
+        width: 16px;
+        height: 16px;
+
+        stroke-width: 3px;
+    }
+}

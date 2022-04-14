@@ -1,0 +1,200 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 30px;
+    }
+
+
+    .cont
+    {
+        padding: 0 15px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .callback_btn
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form_section
+    {
+        padding: 60px 0;
+    }
+
+
+
+    /*-----------------
+		Main section
+	-----------------*/
+    .page_btn
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .main_section .size
+    {
+        padding: 0 15px;
+    }
+
+    .main_section .items
+    {
+        padding-right: 10px;
+    }
+
+    .main_section .item
+    {
+        flex-grow: 1;
+
+        width: calc(100%/3 - 10px);
+        margin-right: 10px;
+    }
+
+    .main_section .item .name
+    {
+        font-size: 12px;
+    }
+
+
+
+    /*-----------------
+		Interior
+	-----------------*/
+    .interior
+    {
+        padding-top: 60px;
+    }
+
+    .interior .title
+    {
+        font-size: 32px;
+    }
+
+
+    .interior .quote
+    {
+        max-width: 330px;
+    }
+
+
+    .quote
+    {
+        padding-left: 60px;
+    }
+
+
+
+    /*-----------------
+		Information
+	-----------------*/
+    .information
+    {
+        padding: 60px 0;
+    }
+
+
+    .information .list li br
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+		Information
+	-----------------*/
+    .suitable
+    {
+        padding: 60px 0;
+    }
+
+
+
+    /*-----------------
+		Advantages
+	-----------------*/
+    .advantages .bg
+    {
+        padding: 60px 0;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 70px;
+        height: 70px;
+    }
+
+    .advantages .page_btn
+    {
+        width: 100%;
+    }
+
+
+    /*-----------------
+		Important
+	-----------------*/
+    .important
+    {
+        padding: 60px 0;
+    }
+
+
+
+    footer .cont
+    {
+        justify-content: center;
+    }
+
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .logo img
+    {
+        margin: 0 auto;
+    }
+
+    footer .copy
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+		PopUp
+	-----------*/
+    .modal
+    {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+    .modal .title
+    {
+        font-size: 20px;
+    }
+}
