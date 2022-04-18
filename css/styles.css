@@ -814,6 +814,9 @@ header .callback_btn:hover
 
     text-decoration: none;
 }
+
+
+
 /*------------------------
 	Slider controls
 ------------------------*/
@@ -893,6 +896,9 @@ header .callback_btn:hover
 
     stroke: #000;
     stroke-width: 4px;
+    width: 32px;
+    height: 58px;
+    object-fit: contain;
 }
 
 .slider-button-prev:hover svg,
